@@ -7,13 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA07D1A62B6D14F800B142BE /* AppLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07D1A52B6D14F800B142BE /* AppLoadingView.swift */; };
+		AA07D1AA2B6D160100B142BE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07D1A92B6D160100B142BE /* SplashScreen.swift */; };
+		AA07D1AC2B6D631500B142BE /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07D1AB2B6D631500B142BE /* ShareCardView.swift */; };
+		AA07D1AE2B6D688600B142BE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07D1AD2B6D688600B142BE /* TextView.swift */; };
+		AA08D6952B651865007DA7AD /* CustomTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08D6942B651865007DA7AD /* CustomTransfer.swift */; };
+		AA08D6972B652132007DA7AD /* ElementContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08D6962B652132007DA7AD /* ElementContextMenu.swift */; };
+		AA363DD12B6393CC007595C1 /* PhotosModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA363DD02B6393CC007595C1 /* PhotosModal.swift */; };
+		AA363DD32B639C6F007595C1 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA363DD22B639C6F007595C1 /* UIImageExtensions.swift */; };
+		AA3906A92B664A1400EB745D /* FrameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3906A82B664A1400EB745D /* FrameModal.swift */; };
+		AA4140A12B65999600FD4863 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4140A02B65999600FD4863 /* Shapes.swift */; };
+		AA4A167F2B5FEE63007F4CAE /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A167E2B5FEE63007F4CAE /* ResizableView.swift */; };
+		AA4A16832B5FEF50007F4CAE /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A16822B5FEF50007F4CAE /* Transform.swift */; };
+		AA4A16852B5FF118007F4CAE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A16842B5FF118007F4CAE /* Operators.swift */; };
 		AA6130C02B3D675700A3096A /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130BF2B3D675700A3096A /* CardsApp.swift */; };
-		AA6130C22B3D675700A3096A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130C12B3D675700A3096A /* ContentView.swift */; };
 		AA6130C42B3D675800A3096A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6130C32B3D675800A3096A /* Assets.xcassets */; };
 		AA6130C72B3D675800A3096A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6130C62B3D675800A3096A /* Preview Assets.xcassets */; };
 		AA6130D12B3D675800A3096A /* CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130D02B3D675800A3096A /* CardsTests.swift */; };
 		AA6130DB2B3D675800A3096A /* CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130DA2B3D675800A3096A /* CardsUITests.swift */; };
 		AA6130DD2B3D675800A3096A /* CardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130DC2B3D675800A3096A /* CardsUITestsLaunchTests.swift */; };
+		AA6130EA2B3D677400A3096A /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130E92B3D677400A3096A /* CardsListView.swift */; };
+		AA6130EC2B3D6B0500A3096A /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130EB2B3D6B0500A3096A /* SingleCardView.swift */; };
+		AA6130EE2B3D6E9B00A3096A /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6130ED2B3D6E9B00A3096A /* BottomToolbar.swift */; };
+		AA6930AC2B6035E3000004DF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6930AB2B6035E3000004DF /* Settings.swift */; };
+		AA6930AF2B6036B2000004DF /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6930AE2B6036B2000004DF /* ColorExtensions.swift */; };
+		AA6930B12B603894000004DF /* CardToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6930B02B603894000004DF /* CardToolBar.swift */; };
+		AA9108C52B6A57FD00183BAF /* AngleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9108C42B6A57FD00183BAF /* AngleExtension.swift */; };
+		AA9108C72B6A75AA00183BAF /* TextModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9108C62B6A75AA00183BAF /* TextModal.swift */; };
+		AACDC6212B60FBAC004BA501 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC6202B60FBAC004BA501 /* TextExtensions.swift */; };
+		AACDC6292B60FF13004BA501 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC6282B60FF13004BA501 /* PreviewData.swift */; };
+		AACDC62B2B610899004BA501 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC62A2B610899004BA501 /* CardElement.swift */; };
+		AACDC62D2B6108BE004BA501 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC62C2B6108BE004BA501 /* Card.swift */; };
+		AACDC62F2B6108F9004BA501 /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDC62E2B6108F9004BA501 /* CardStore.swift */; };
+		AAE55BB12B61865900DC5A04 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55BB02B61865900DC5A04 /* CardDetailView.swift */; };
+		AAE55BB32B61892700DC5A04 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55BB22B61892700DC5A04 /* CardElementView.swift */; };
+		AAEF05122B62C05000713149 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = AAEF05112B62C05000713149 /* Stickers */; };
+		AAEF05162B62C1A700713149 /* StickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF05152B62C1A700713149 /* StickerModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +63,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA07D1A52B6D14F800B142BE /* AppLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoadingView.swift; sourceTree = "<group>"; };
+		AA07D1A92B6D160100B142BE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		AA07D1AB2B6D631500B142BE /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
+		AA07D1AD2B6D688600B142BE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		AA08D6942B651865007DA7AD /* CustomTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransfer.swift; sourceTree = "<group>"; };
+		AA08D6962B652132007DA7AD /* ElementContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementContextMenu.swift; sourceTree = "<group>"; };
+		AA363DD02B6393CC007595C1 /* PhotosModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModal.swift; sourceTree = "<group>"; };
+		AA363DD22B639C6F007595C1 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		AA3906A82B664A1400EB745D /* FrameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModal.swift; sourceTree = "<group>"; };
+		AA4140A02B65999600FD4863 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		AA4A167E2B5FEE63007F4CAE /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
+		AA4A16822B5FEF50007F4CAE /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		AA4A16842B5FF118007F4CAE /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		AA6130BC2B3D675700A3096A /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6130BF2B3D675700A3096A /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
-		AA6130C12B3D675700A3096A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA6130C32B3D675800A3096A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6130C62B3D675800A3096A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA6130CC2B3D675800A3096A /* CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +85,24 @@
 		AA6130D62B3D675800A3096A /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6130DA2B3D675800A3096A /* CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITests.swift; sourceTree = "<group>"; };
 		AA6130DC2B3D675800A3096A /* CardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA6130E92B3D677400A3096A /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
+		AA6130EB2B3D6B0500A3096A /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
+		AA6130ED2B3D6E9B00A3096A /* BottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
+		AA6930AB2B6035E3000004DF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AA6930AE2B6036B2000004DF /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		AA6930B02B603894000004DF /* CardToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToolBar.swift; sourceTree = "<group>"; };
+		AA9108C42B6A57FD00183BAF /* AngleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleExtension.swift; sourceTree = "<group>"; };
+		AA9108C62B6A75AA00183BAF /* TextModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModal.swift; sourceTree = "<group>"; };
+		AACDC6202B60FBAC004BA501 /* TextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtensions.swift; sourceTree = "<group>"; };
+		AACDC6282B60FF13004BA501 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		AACDC62A2B610899004BA501 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
+		AACDC62C2B6108BE004BA501 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AACDC62E2B6108F9004BA501 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
+		AADF41BC2B62842600389670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAE55BB02B61865900DC5A04 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		AAE55BB22B61892700DC5A04 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
+		AAEF05112B62C05000713149 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stickers; sourceTree = "<group>"; };
+		AAEF05152B62C1A700713149 /* StickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +130,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA4A16802B5FEF24007F4CAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A16822B5FEF50007F4CAE /* Transform.swift */,
+				AA4A16842B5FF118007F4CAE /* Operators.swift */,
+				AACDC62A2B610899004BA501 /* CardElement.swift */,
+				AACDC62C2B6108BE004BA501 /* Card.swift */,
+				AACDC62E2B6108F9004BA501 /* CardStore.swift */,
+				AA08D6942B651865007DA7AD /* CustomTransfer.swift */,
+				AA4140A02B65999600FD4863 /* Shapes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA4A16812B5FEF2D007F4CAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF05132B62C13D00713149 /* SingleCardViews */,
+				AA6130E92B3D677400A3096A /* CardsListView.swift */,
+				AA07D1AB2B6D631500B142BE /* ShareCardView.swift */,
+				AA07D1AD2B6D688600B142BE /* TextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AA6130B32B3D675700A3096A = {
 			isa = PBXGroup;
 			children = (
 				AA6130BE2B3D675700A3096A /* Cards */,
+				AA6130C32B3D675800A3096A /* Assets.xcassets */,
 				AA6130CF2B3D675800A3096A /* CardsTests */,
 				AA6130D92B3D675800A3096A /* CardsUITests */,
 				AA6130BD2B3D675700A3096A /* Products */,
@@ -94,9 +179,15 @@
 		AA6130BE2B3D675700A3096A /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				AADF41BC2B62842600389670 /* Info.plist */,
 				AA6130BF2B3D675700A3096A /* CardsApp.swift */,
-				AA6130C12B3D675700A3096A /* ContentView.swift */,
-				AA6130C32B3D675800A3096A /* Assets.xcassets */,
+				AA07D1A92B6D160100B142BE /* SplashScreen.swift */,
+				AA07D1A52B6D14F800B142BE /* AppLoadingView.swift */,
+				AAEF05112B62C05000713149 /* Stickers */,
+				AA6930AD2B603690000004DF /* Extensions */,
+				AA6930AA2B6035CB000004DF /* Config */,
+				AA4A16812B5FEF2D007F4CAE /* View */,
+				AA4A16802B5FEF24007F4CAE /* Model */,
 				AA6130C52B3D675800A3096A /* Preview Content */,
 			);
 			path = Cards;
@@ -106,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				AA6130C62B3D675800A3096A /* Preview Assets.xcassets */,
+				AACDC6282B60FF13004BA501 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,6 +217,51 @@
 				AA6130DC2B3D675800A3096A /* CardsUITestsLaunchTests.swift */,
 			);
 			path = CardsUITests;
+			sourceTree = "<group>";
+		};
+		AA6930AA2B6035CB000004DF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AA6930AB2B6035E3000004DF /* Settings.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AA6930AD2B603690000004DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA6930AE2B6036B2000004DF /* ColorExtensions.swift */,
+				AACDC6202B60FBAC004BA501 /* TextExtensions.swift */,
+				AA363DD22B639C6F007595C1 /* UIImageExtensions.swift */,
+				AA9108C42B6A57FD00183BAF /* AngleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAEF05132B62C13D00713149 /* SingleCardViews */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF05142B62C18500713149 /* CardModalViews */,
+				AAE55BB22B61892700DC5A04 /* CardElementView.swift */,
+				AA4A167E2B5FEE63007F4CAE /* ResizableView.swift */,
+				AAE55BB02B61865900DC5A04 /* CardDetailView.swift */,
+				AA6130EB2B3D6B0500A3096A /* SingleCardView.swift */,
+				AA6130ED2B3D6E9B00A3096A /* BottomToolbar.swift */,
+				AA6930B02B603894000004DF /* CardToolBar.swift */,
+				AA08D6962B652132007DA7AD /* ElementContextMenu.swift */,
+			);
+			path = SingleCardViews;
+			sourceTree = "<group>";
+		};
+		AAEF05142B62C18500713149 /* CardModalViews */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF05152B62C1A700713149 /* StickerModal.swift */,
+				AA9108C62B6A75AA00183BAF /* TextModal.swift */,
+				AA363DD02B6393CC007595C1 /* PhotosModal.swift */,
+				AA3906A82B664A1400EB745D /* FrameModal.swift */,
+			);
+			path = CardModalViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6130C72B3D675800A3096A /* Preview Assets.xcassets in Resources */,
+				AAEF05122B62C05000713149 /* Stickers in Resources */,
 				AA6130C42B3D675800A3096A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +395,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6130C22B3D675700A3096A /* ContentView.swift in Sources */,
+				AACDC62F2B6108F9004BA501 /* CardStore.swift in Sources */,
+				AA6930AF2B6036B2000004DF /* ColorExtensions.swift in Sources */,
+				AAE55BB32B61892700DC5A04 /* CardElementView.swift in Sources */,
+				AA4A16852B5FF118007F4CAE /* Operators.swift in Sources */,
+				AA6930B12B603894000004DF /* CardToolBar.swift in Sources */,
+				AACDC6292B60FF13004BA501 /* PreviewData.swift in Sources */,
+				AA07D1AC2B6D631500B142BE /* ShareCardView.swift in Sources */,
+				AACDC6212B60FBAC004BA501 /* TextExtensions.swift in Sources */,
+				AA363DD32B639C6F007595C1 /* UIImageExtensions.swift in Sources */,
+				AA07D1AE2B6D688600B142BE /* TextView.swift in Sources */,
+				AA6130EA2B3D677400A3096A /* CardsListView.swift in Sources */,
+				AACDC62D2B6108BE004BA501 /* Card.swift in Sources */,
+				AA4A167F2B5FEE63007F4CAE /* ResizableView.swift in Sources */,
+				AA3906A92B664A1400EB745D /* FrameModal.swift in Sources */,
+				AA08D6952B651865007DA7AD /* CustomTransfer.swift in Sources */,
+				AA363DD12B6393CC007595C1 /* PhotosModal.swift in Sources */,
+				AA4A16832B5FEF50007F4CAE /* Transform.swift in Sources */,
+				AA9108C52B6A57FD00183BAF /* AngleExtension.swift in Sources */,
+				AA07D1AA2B6D160100B142BE /* SplashScreen.swift in Sources */,
+				AA4140A12B65999600FD4863 /* Shapes.swift in Sources */,
+				AAEF05162B62C1A700713149 /* StickerModal.swift in Sources */,
+				AA9108C72B6A75AA00183BAF /* TextModal.swift in Sources */,
+				AA07D1A62B6D14F800B142BE /* AppLoadingView.swift in Sources */,
+				AA6130EC2B3D6B0500A3096A /* SingleCardView.swift in Sources */,
+				AACDC62B2B610899004BA501 /* CardElement.swift in Sources */,
+				AA6930AC2B6035E3000004DF /* Settings.swift in Sources */,
+				AA6130EE2B3D6E9B00A3096A /* BottomToolbar.swift in Sources */,
+				AA08D6972B652132007DA7AD /* ElementContextMenu.swift in Sources */,
+				AAE55BB12B61865900DC5A04 /* CardDetailView.swift in Sources */,
 				AA6130C02B3D675700A3096A /* CardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +591,9 @@
 				DEVELOPMENT_TEAM = 76PSY2Z2S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +620,9 @@
 				DEVELOPMENT_TEAM = 76PSY2Z2S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

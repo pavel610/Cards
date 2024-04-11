@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "error-image.svg",
       "idiom" : "universal"
     }
   ],
