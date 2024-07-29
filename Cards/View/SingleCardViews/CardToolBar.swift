@@ -42,7 +42,7 @@ struct CardToolBar: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-        .toolbar{
+            .toolbar{
             ToolbarItem(placement: .navigationBarTrailing) {
                 menu
             }

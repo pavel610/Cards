@@ -72,6 +72,7 @@ struct Card: Identifiable {
             let filename = "\(id).rwcard"
             let url = URL.documentsDirectory
                 .appendingPathComponent(filename)
+            
             // 4
             try data.write(to: url)
         } catch {

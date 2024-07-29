@@ -58,8 +58,7 @@ extension CardStore {
             do { // 4
                 let path = path + "/" + cardFile
                 
-                let data =
-                try Data(contentsOf: URL(fileURLWithPath: path))
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
                 // 5
                 let decoder = JSONDecoder()
                 let card = try decoder.decode(Card.self, from: data)
